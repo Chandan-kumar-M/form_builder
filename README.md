@@ -1,73 +1,42 @@
-# Welcome to your Lovable project
+# 🧩 Form Builder
 
-## Project info
+A feature-rich drag-and-drop form builder built with **React Remix**, **Tailwind CSS**, and **Zustand** for state management. This project allows users to visually build, configure, preview, and share custom forms with real-time validation and multi-step functionality.
 
-**URL**: https://lovable.dev/projects/9ec8711f-1829-422b-b1b9-1efd36fa3aeb
+## 🚀 Features
 
-## How can I edit this code?
+### ✅ Core Features
+1. **Drag-and-Drop Interface**
+   - Add components: Text, Textarea, Dropdown, Checkbox, Date.
 
-There are several ways of editing your application.
+2. **Field Reordering**
+   - Drag actions for reordering components.
 
-**Use Lovable**
+3. **Field Configuration**
+   - Label, placeholder, required toggle, help text, options (for dropdown).
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9ec8711f-1829-422b-b1b9-1efd36fa3aeb) and start prompting.
+4. **Real-time Preview with Validation**
+   - Required fields, Min/Max Length, Pattern matching (Email/Phone).
 
-Changes made via Lovable will be committed automatically to this repo.
+5. **Responsive Preview Modes**
+   - Desktop, Tablet, Mobile.
 
-**Use your preferred IDE**
+6. **Template Loading and Saving**
+   - Predefined templates (e.g., Contact Us).
+   - Save/load from LocalStorage or API.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+7. **Multi-Step Forms**
+   - Step navigation with validations.
+   - Visual progress indicator.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+8. **Form Sharing**
+   - Generate shareable URLs.
+   - Load form by ID.
+   - Public "Form Filler" view.
 
-Follow these steps:
+## 🛠️ Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Frontend**: React Remix
+- **Styling**: Tailwind CSS
+- **State Management**: Zustand / Redux / Context API 
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/9ec8711f-1829-422b-b1b9-1efd36fa3aeb) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
